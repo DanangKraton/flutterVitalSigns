@@ -87,8 +87,8 @@ class _HomePageState extends State<HomePage> {
                               height: 40,
                               decoration: BoxDecoration(
                                   image: DecorationImage(
-                                      image: AssetImage(
-                                          'assets/images/bp_pic.png'))),
+                                      image:
+                                          AssetImage('assets/images/bp.png'))),
                             ),
                             SizedBox(
                               height: 5,
@@ -98,9 +98,6 @@ class _HomePageState extends State<HomePage> {
                               style: dark_blue_text_sty.copyWith(
                                   fontSize: 20, fontWeight: medium),
                             ),
-                            // SizedBox(
-                            //   height: 1,
-                            // ),
                             Text(
                               '$bp_data',
                               style: red_text_sty.copyWith(
@@ -113,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                                 Text(
                                   'mmhg',
                                   style: red_text_sty.copyWith(
-                                      fontSize: 16, fontWeight: regular),
+                                      fontSize: 15, fontWeight: regular),
                                 ),
                               ],
                             )
@@ -164,9 +161,6 @@ class _HomePageState extends State<HomePage> {
                               style: dark_blue_text_sty.copyWith(
                                   fontSize: 20, fontWeight: medium),
                             ),
-                            // SizedBox(
-                            //   height: 1,
-                            // ),
                             Text(
                               '$heart_data',
                               style: yellow_text_sty.copyWith(
@@ -179,7 +173,7 @@ class _HomePageState extends State<HomePage> {
                                 Text(
                                   'bpm',
                                   style: yellow_text_sty.copyWith(
-                                      fontSize: 16, fontWeight: regular),
+                                      fontSize: 15, fontWeight: regular),
                                 ),
                               ],
                             )
@@ -248,7 +242,7 @@ class _HomePageState extends State<HomePage> {
                                 Text(
                                   '%',
                                   style: green_text_sty.copyWith(
-                                      fontSize: 16, fontWeight: regular),
+                                      fontSize: 15, fontWeight: regular),
                                 ),
                               ],
                             )
@@ -314,7 +308,7 @@ class _HomePageState extends State<HomePage> {
                                 Text(
                                   'Celcius',
                                   style: light_blue_text_sty.copyWith(
-                                      fontSize: 16, fontWeight: regular),
+                                      fontSize: 15, fontWeight: regular),
                                 ),
                               ],
                             )

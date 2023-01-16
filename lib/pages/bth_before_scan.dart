@@ -112,7 +112,7 @@ class bth_before_scan extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const bth_scan(),
+                      builder: (context) => const hehehe(),
                     ),
                   );
                 },
